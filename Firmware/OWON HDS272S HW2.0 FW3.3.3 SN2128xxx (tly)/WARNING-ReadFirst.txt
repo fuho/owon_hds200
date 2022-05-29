@@ -1,0 +1,37 @@
+!!! WARNING !!!
+
+This update applies ONLY to:
+- device: HDS272S (with signal generator)
+- SN : 2128xxxx
+- board version: V2.0
+- old firmware version: 3.2.0
+
+
+-----------
+
+Upgrade steps:
+
+
+First rename "Scope-V3.3.3_model-HDS272S_board-V2.0_SN-2128xxx.upp" file to "Scope.upp"
+
+
+1. turn on the HDS scope, push "system" and then select F2 "system", to next page, select "upgrade"
+
+2. connect PC with HDS scope by USB cable, push "system", in next page, select USB as "MSC", the removable disk will pop up.
+
+3. copy the attached "Scope.upp" to removable disk such as H disk.
+
+turn off your scope and then turn on again. The scope will upgrade and turn off after finish.
+
+4. turn on your scope to check the version number changed in "system" menu，V3.3.3  .
+
+This upgrade package is only applicable to HDS272S, version V3.*.* Upgradeable.
+
+
+----------
+
+To change language use:
+
+System button -> F2 button  -> F1 button
+System -> [System] -> [Language]
+
