@@ -1,4 +1,4 @@
-# HDS200 Info Doc v2022-06-03.01
+# HDS200 Info Doc v2022-06-03.02
 
 ## Firmware
 
