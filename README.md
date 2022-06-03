@@ -1,10 +1,9 @@
 # HDS200 Info Doc v2022-05-29.01
 
-
 ## Firmware
 
 ### FW v5.7.1
-- user:            GSR1600
+- user:            GSR1600  
 - post:            https://www.eevblog.com/forum/testgear/owon-hds-200-handheld-oscilloscope-w-builtin-dmmawg/msg4030375/#msg4030375
 - model:           HDS272S
 - hw_version:      3.0
@@ -99,41 +98,77 @@ is read-only with a hard coded checksum. Those are apparently "NOT upgradable".
 
 #### HDS2102x_main_v1.0
 - board date: 2021-09-16
-- devices: HDS2102S
-- firmware: 1.3.3
+- models: HDS2102S
+- firmware: v1.3.3
 - serials: 2152xxx,
 
 #### HW 3.0
 - HDS200_MAIN_V3.0
 - board date: 2021-09-27
-- devices: HDS2102S
+- firmware: v5.1.1, v5.3.0, v5.4.0, v5.6.3, v5.7.1,
+- models: HDS2102S
+- devices:
+  - HDS272S (xxxxxxx - BetterAndBetter;v5.3.0)
+  - HDS272 (214xxxx - idolclub;v5.1.1)
+  - HDS272S (2149xxx - sequoia;v5.4.0)
+  - HDS272s (2149xxx - eti;v5.4.0)
+  - HDS272s (2152xxx - rn777;v5.6.3;v5.7.1)
 - serials: 2148xxx, 2149xxx, 2152xxx,
-- firmware: 5.1.1, 5.4.0, 5.7.1,
 
 #### HW 2.2
 - board date: 2021-09-09
-- devices: HDS242S
-- firmware: 4.2.0, 4.6.1
+- models: HDS242S
+- firmware: v4.2.0, v4.6.1
+- devices:
+  - HDS272S (xxxxxxx - TheBay;v4.2.0)
+  - HDS272S (2319xxx - hacs;v4.6.1)
 - serials: 2319xxx,
 
 #### HW 2.1
 - HDS200_MAIN_V2.1
 - board date: 2021-09-09
-- devices: HDS242S
-- firmware: 4.2.0, 4.6.1
+- models: HDS242S
+- firmware: v3.3.0, v4.2.0, v4.6.1
+- devices:
+  - HDS2x2x (2130xxx - Sobakin76;v4.1.0)
+  - HDS2x2x (2131xxx - Voltlog)
+  - HDS272S (2131xxx - Flash2Light;v3.3.0)
+  - HDS272S (2131xxx - TheHWCave)
 - serials: 2319xxx,
 
 #### HW 2.0
 - HDS200_MAIN_V2.0
 - board date: 2021-03-24
-- devices: HDS272S
+- models: HDS272S
 - firmware: v3.0.0, v3.1.0, v3.2.0, v3.3.3
+- max firmware: v3.3.3
 - Used for serial numbers 2118xxx -> 2129xxx
+- devices:
+  - HDS272S (xxxxxxx - sijmen;v3.1.0)
+  - HDS272S (2124274 - fuho;v3.1.0)
+  - HDS242S (xxxxxxx - sotos;v3.0.0)
+  - HDS242S (xxxxxxx - nitromethane;v3.0.0)
+  - HDS272S (2121xxx - learnelectronics)
+  - HDS2x2x (2124xxx - exalab;v3.1.0)
+  - HDS272S (2128xxx - giovannirat;v3.2.0)
+  - HDS272S (2128xxx - dagobird;v3.2.0)
+  - HDS272S (2128xxx - saresigi;v3.2.0)
+  - HDS2x2x (2129xxx - papabol_24;v3.2.0)
+  - HDS272S (2129xxx - forceman;v3.3.0)
 - sn 2124274 has gigadevice flash
 
 #### HW 1.0
 - HDS200_MAIN_V1.0
 - board date: 2020-09-25
-- firmware:
-- devices: HDS271 (2047221 -TrendX)
+- models: HDS272, HDS272S
+- firmware: v1.2, v1.7
+- max firmware: v1.7
+- devices:
+  - HDS272 (2047221 - TrendX)
+  - HDS272S (2047xxx - janiorib)
+  - HDS272S (2047xxx - julius.gl;v1.2.0;v1.7.0)
 - serials: 2047221,
+
+
+### Unknown Hardware Revisions
+HDS272S FW2.01 (RHB)
