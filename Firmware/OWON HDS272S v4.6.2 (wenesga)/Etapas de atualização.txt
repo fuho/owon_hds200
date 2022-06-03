@@ -1,0 +1,11 @@
+Etapas de atualização:
+
+1. ligue o escopo HDS, pressione "sistema" e selecione F2 "sistema", para a próxima página, selecione "atualizar"
+
+2. Conecte o PC com o escopo HDS pelo cabo USB, pressione "sistema", na próxima página, selecione USB como "MSC", o disco removível aparecerá.
+
+3. copie o "Scope.upp" anexado para um disco removível, como um disco H.
+
+desligue seu escopo e ligue novamente. O osciloscópio será atualizado e desligado após o término.
+
+4. ligue seu escopo para verificar o número da versão alterado no menu "sistema"，V4.6.2

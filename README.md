@@ -46,6 +46,18 @@
 - SHA-1:           5130E27FFE62733214DA89225DCFEA7506783D4F
 
 
+### FW v4.6.2
+- user:            wenesga
+- post:            https://www.eevblog.com/forum/testgear/owon-hds-200-handheld-oscilloscope-w-builtin-dmmawg/msg4211791/#msg4211791
+- model:           HDS272S
+- hw_version:      2.1
+- original fw:     
+- serial:          2146xxx
+- download:        https://app.box.com/s/h6vcyczfnft1hih4z47wgo76lu6a053p
+- MD5:             75CF54FB80673E3AEDFE30C93E2E8E09
+- SHA-1:           D91344A74BB6D26851AAF9D6FE5B7F6E58B15711
+
+
 ### FW v3.3.3
 - user:            tly
 - post:            https://www.eevblog.com/forum/testgear/owon-hds-200-handheld-oscilloscope-w-builtin-dmmawg/msg4015513/#msg4015513
@@ -134,6 +146,7 @@ is read-only with a hard coded checksum. Those are apparently "NOT upgradable".
   - HDS2x2x (2131xxx - Voltlog)
   - HDS272S (2131xxx - Flash2Light;v3.3.0)
   - HDS272S (2131xxx - TheHWCave)
+  - HDS272S (2146xxx - wenesga;v4.6.2)
 - serials: 2319xxx,
 
 #### HW 2.0
