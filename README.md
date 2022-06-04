@@ -1,4 +1,4 @@
-# HDS200 Info Doc v2022-06-03.02
+# HDS200 Info Doc v2022-06-04.01
 
 ## Firmware
 [!OWON FW DOWNLOAD CENTER FOR HDS200](https://www.owon.com.hk/download.asp?category=Digital%20Oscilloscope&series=HDS200%20Series&model=&SortTag=Latest%20Firmware)
