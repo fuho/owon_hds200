@@ -1,6 +1,7 @@
 # HDS200 Info Doc v2022-06-03.02
 
 ## Firmware
+[!OWON FW DOWNLOAD CENTER FOR HDS200](https://www.owon.com.hk/download.asp?category=Digital%20Oscilloscope&series=HDS200%20Series&model=&SortTag=Latest%20Firmware)
 
 ### FW v5.7.1
 - user:            GSR1600  
@@ -70,6 +71,17 @@
 - SHA-1:           B79C51348F1630828DA1D61A36E247B82CA6F452
 
 
+### FW v1.5.1
+- user:            miegapele
+- post:            https://www.eevblog.com/forum/testgear/owon-hds-200-handheld-oscilloscope-w-builtin-dmmawg/msg4215118/#msg4215118
+- model:           HDS2102S
+- hw_version:      1.0
+- serial:          xxxxxxx
+- download:        https://www.dropbox.com/s/tkjh575usm05h75/OWON_HDS2102Sv1.5.1.zip?dl=0
+- MD5:             6BC6C317449C66B853698BA14689A18A
+- SHA-1:           6C7BC70C006B25AD4965AB1AFB7A1BFA875351BF
+
+
 ### FW v1.4.1
 - user:            gtube
 - post:            https://www.eevblog.com/forum/testgear/owon-hds-200-handheld-oscilloscope-w-builtin-dmmawg/msg4027384/#msg4027384
@@ -88,7 +100,6 @@
 - download:        https://www.eevblog.com/forum/testgear/owon-hds-200-handheld-oscilloscope-w-builtin-dmmawg/?action=dlattach;attach=1250065
 - MD5:             D05A5D23E36E089A6EA952888D019C1B
 - SHA-1:           F773BB86256D771494D624813D1C2B79F2A9B980
-
 
 
 ### FW v1.7.0
@@ -111,7 +122,7 @@ is read-only with a hard coded checksum. Those are apparently "NOT upgradable".
 #### HDS2102x_main_v1.0
 - board date: 2021-09-16
 - models: HDS2102S
-- firmware: v1.3.3
+- firmware: v1.3.3, v1.5.0, v1.5.1
 - serials: 2152xxx,
 
 #### HW 3.0
@@ -125,6 +136,7 @@ is read-only with a hard coded checksum. Those are apparently "NOT upgradable".
   - HDS272S (2149xxx - sequoia;v5.4.0)
   - HDS272s (2149xxx - eti;v5.4.0)
   - HDS272s (2152xxx - rn777;v5.6.3;v5.7.1)
+  - HDS272 (2152092 - skander36;v5.4.0;v5.7.1)
 - serials: 2148xxx, 2149xxx, 2152xxx,
 
 #### HW 2.2
