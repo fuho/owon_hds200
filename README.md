@@ -1,4 +1,4 @@
-# HDS200 Info Doc v2022-06-04.01
+# HDS200 Info Doc v2022-06-23.01
 
 ## Firmware
 [!OWON FW DOWNLOAD CENTER FOR HDS200](https://www.owon.com.hk/download.asp?category=Digital%20Oscilloscope&series=HDS200%20Series&model=&SortTag=Latest%20Firmware)
@@ -125,6 +125,24 @@ is read-only with a hard coded checksum. Those are apparently "NOT upgradable".
 - firmware: v1.3.3, v1.5.0, v1.5.1
 - serials: 2152xxx,
 
+#### HW 3.1
+- HDS200_MAIN_V3.1
+- board date: 2021-12-28
+- firmware: v5.7.1,
+- models: HDS242S
+- devices:
+  - HDS272S (2207xxx - HarleyYan;v5.7.1)
+- serials: 2207xxx
+
+#### HW 3.0.1
+- HDS200_MAIN_V3.0.1
+- board date: 2021-11-20
+- firmware: 
+- models: HDS242
+- devices:
+  - (2204494 - KyleK29)
+- serials: 2204494
+
 #### HW 3.0
 - HDS200_MAIN_V3.0
 - board date: 2021-09-27
@@ -137,6 +155,7 @@ is read-only with a hard coded checksum. Those are apparently "NOT upgradable".
   - HDS272s (2149xxx - eti;v5.4.0)
   - HDS272s (2152xxx - rn777;v5.6.3;v5.7.1)
   - HDS272 (2152092 - skander36;v5.4.0;v5.7.1)
+  - HDS272S (2148xxx - oldo439)
 - serials: 2148xxx, 2149xxx, 2152xxx,
 
 #### HW 2.2
@@ -159,6 +178,7 @@ is read-only with a hard coded checksum. Those are apparently "NOT upgradable".
   - HDS272S (2131xxx - Flash2Light;v3.3.0)
   - HDS272S (2131xxx - TheHWCave)
   - HDS272S (2146xxx - wenesga;v4.6.2)
+  - HDS272S (2141xxx - NathanFulton;v4.6.2)
 - serials: 2319xxx,
 
 #### HW 2.0
